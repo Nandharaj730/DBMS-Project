@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url("banner\ cinema.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    margin : 0;
+    background-size: 100% 120px;
+}
+.header{
+    position: relative;
+    width :100%;
+    padding-left: 20px;
+    top:0;
+    display: inline-block;
+    left :0;
+    padding-bottom: 10px;
+}
+.header label {
+    display: inline;
+    float : left;
+    padding-top: 10px;
+}
+.username p{
+    float : right;
+    position:absolute;
+    top :0; 
+    right :10px;
+}
+.header input[type = "text"]{
+    position: relative;
+    width : 500px;
+}
+.logo{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 50px;
+    text-shadow: 0 0 10px dodgerblue;
+    text-transform: capitalize;
+}
+.search-box input{
+    border :none;
+    padding: 10px;
+    margin-top : 10px;
+    margin-left  :170px;
+    font-size: 17px;
+    color : blueviolet;
+    border-radius: 50px;
+    text-align: center;
+    background : transparent;
+    box-shadow: 0 0 10px violet;
+}
+.search-box ::placeholder{
+    color :blueviolet;
+}
+.search-button button{
+    margin-top: 10px;
+    padding : 11px;
+    font-size: 17px;
+    margin-left: 1px;
+    border-radius: 50px;
+    cursor: pointer;
+    color: blueviolet;
+    width : 70px;
+    background: #ddd;
+    border : none;
+    background : transparent;
+    box-shadow: 0 0 10px violet;
+}
+.username p{
+    padding : 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+    color: blueviolet;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 0 10px violet;
+}
+.content{
+    margin-top : 40px;
+    position: relative;
+    width : 100%;
+    color: white;
+    background: url("dashimg.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
